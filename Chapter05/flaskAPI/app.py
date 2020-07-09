@@ -32,8 +32,7 @@ def predict():
 	        self.sigmoid = nn.Sigmoid()
 	        
 	        
-	    def forward (self, input_words):
-	                                             
+	    def forward (self, input_words):                              
 	        embedded_words = self.embedding(input_words)   
 	        lstm_out, h = self.lstm(embedded_words)     
 	        lstm_out = self.dropout(lstm_out)
@@ -49,7 +48,6 @@ def predict():
 	    
 	    
 	    def init_hidden (self, batch_size):
-	        
 	        device = "cpu"
 	        weights = next(self.parameters()).data
 	        h = (weights.new(self.n_layers, batch_size, self.n_hidden).zero_().to(device),
@@ -58,7 +56,6 @@ def predict():
 	        return h
 
 	def preprocess_review(review):
-
 		with open('models/word_to_int_dict.json') as handle:
 			word_to_int_dict = json.load(handle)
 
@@ -91,13 +88,11 @@ def predict():
 	model = SentimentLSTM(5401, 50, 100, 1, 2)
 
 	model.load_state_dict(torch.load("models/model_nlp.pkl"))
-	
-    model.eval()
+	model.eval()
 	words = np.array([preprocess_review(review=i)])
 	padded_words = torch.from_numpy(words)
 	pred_loader = DataLoader(padded_words, batch_size = 1, shuffle = True)
-	
-    for x in pred_loader:
+	for x in pred_loader:
 		output = model(x)[0].item()
 
 	response = json.dumps({'response': output})
