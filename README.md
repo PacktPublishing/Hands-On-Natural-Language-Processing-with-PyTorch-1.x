@@ -44,7 +44,7 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                                                                    |  OS required                        |
 | -------- | -------------------------------------------------------------------------------------| ------------------------------------|
-| 1 - 10   |   Python 3.7, PyTorch 1.x, GPU (preferred)                                           |  Windows/Linux/macOS                |
+| 2 - 8    |   Python 3.7, PyTorch 1.x, GPU (preferred)                                           |  Windows/Linux/macOS                |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781789802740_ColorImages.pdf).
 
