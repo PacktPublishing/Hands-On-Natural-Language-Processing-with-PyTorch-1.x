@@ -1,3 +1,8 @@
+## $5 Tech Unlocked 2021!
+[Buy and download this product for only $5 on PacktPub.com](https://www.packtpub.com/)
+-----
+*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
+
 # Hands-On Natural Language Processing with PyTorch 1.x
 
 <a href="https://www.packtpub.com/in/data/hands-on-natural-language-processing-with-pytorch-1-x?utm_source=github&utm_medium=repository&utm_campaign=9781789802740"><img src="https://www.packtpub.com/media/catalog/product/cache/bf3310292d6e1b4ca15aeea773aca35e/9/7/9781788830782-original_38.jpeg" alt="Hands-On Natural Language Processing with PyTorch 1.x" height="256px" align="right"></a>
