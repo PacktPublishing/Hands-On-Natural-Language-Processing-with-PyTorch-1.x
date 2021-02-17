@@ -40,6 +40,10 @@ This PyTorch book is for NLP developers, machine learning and deep learning deve
 
 With the following software and hardware list you can run all code files present in the book (Chapter 2 - 8).
 
+## Errata
+
+* Page 104: The github link provided in Technical requirements section is incorrect. The correct link is as follows: https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-PyTorch-1.x/tree/master/Chapter05.
+
 ### Software and Hardware List
 
 | Chapter  | Software required                                                                    |  OS required                        |
